@@ -24,4 +24,13 @@ for question, weight in QUESTIONS.items():
 
 score = int(points * 100 / max)
 print('\n\n')
-print('Your final score is ' + str(score))
+if (score >= 60):
+	letter = ['a D', 'a C', 'a B', 'an A'][int(score / 10) - 6];
+	if (score % 10 >= 7):
+		letter += '+'
+	elif (score % 10 <= 3):
+		letter += '-'
+else:
+	letter = 'an F'
+
+print('Your final score is ' + letter + ' (' + str(score) + ').')
