@@ -98,5 +98,5 @@ QUESTIONS = {
 	"Paid or been paid for a sexual act?" : 50,
 	"Committed an act of voyeurism?" : 30,
 	"Committed an act of incest?" : 100,
-	"Engaged in bestiality?" : 100,
+	"Engaged in bestiality?" : 100
 }
