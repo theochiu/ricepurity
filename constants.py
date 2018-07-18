@@ -206,5 +206,11 @@ WEIGHTS = {
 	"Engaged in bestiality?" : 100,
 }
 
+MAX = 0
+
+for i in range(len(WEIGHTS)):
+	MAX += WEIGHTS[QUESTIONS[i]]
+
+
 # for i in range(100):
 # 	WEIGHTS.append(1)
