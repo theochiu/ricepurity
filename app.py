@@ -15,4 +15,4 @@ for i in range(len(QUESTIONS)):
 		score -= WEIGHTS[QUESTIONS[i]]
 
 print("\n\n")
-print("Your final score is " + int(score))
+print("Your final score is " + str(score))
