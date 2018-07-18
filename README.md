@@ -4,10 +4,10 @@
 The rice purity test is a popular test to gauge how pure a person is.
 I've taken the liberty to modify it such that the questions have different weights.
 It doesn't make sense that committing a felony and holding hands is the same level of impurity
-(as it stands in the <a href="http://ricepuritytest.com">original version</a>). 
+(as it stands in the <a target = "_blank" href="http://ricepuritytest.com">original version</a>). 
 
 ### How?
-I use python, <a href="http://trinket.io">trinket.io</a> and github pages to host the python script online
+I use python, <a target="_blank" href="http://trinket.io">trinket.io</a> and github pages to host the python script online
 
 
 ### Improvements?
