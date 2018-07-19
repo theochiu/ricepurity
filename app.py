@@ -4,7 +4,7 @@ QUESTIONS = constants.QUESTIONS
 # sum of weights of questions answered 'no'
 points = 0
 # sum of weights of all questions
-max = 0
+maximum = 0
 
 print('Welcome to rice purity 2.0. Answer y for yes and n for no.')
 for question, weight in QUESTIONS.iteritems():
@@ -19,10 +19,10 @@ for question, weight in QUESTIONS.iteritems():
 	# if 'n', purity increases
 	if response.lower() == 'n':
 		points += weight
-	# maximum increases no matter what
-	max += weight
+	# maximumimum increases no matter what
+	maximum += weight
 
-score = int(points * 100 / max)
+score = int(points * 100 / maximum)
 print('\n\n')
 if (score >= 60):
 	letter = ['a D', 'a C', 'a B', 'an A'][int(score / 10) - 6];
