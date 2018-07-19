@@ -7,15 +7,15 @@ points = 0
 max = 0
 
 print('Welcome to rice purity 2.0. Answer y for yes and n for no.')
-for question, weight in QUESTIONS.items():
+for question, weight in QUESTIONS.iteritems():
 	response = ''
 	# ask until a valid response is given
 	print(question)
 	# rip do-while loops :(
-	response = input()
+	response = raw_input()
 	while not response.lower() in ['y', 'n']:
 		print('Please respond either "y" or "n"')
-		response = input()
+		response = raw_input()
 	# if 'n', purity increases
 	if response.lower() == 'n':
 		points += weight
