@@ -19,7 +19,7 @@ for question, weight in QUESTIONS.iteritems():
 	# if 'n', purity increases
 	if response.lower() == 'n':
 		points += weight
-	# maximumimum increases no matter what
+	# maximum increases no matter what
 	maximum += weight
 
 score = int(points * 100 / maximum)
